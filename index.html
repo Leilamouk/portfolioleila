@@ -30,9 +30,10 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <script async src='https://stackwhats.com/pixel/dc69b00ca9cc3b22fca44de49e0054'></script>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+<body>
     
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
@@ -177,8 +178,17 @@
                                     <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <img  style="width:400px ; height: 300px; border-radius: 5px; margin-right: 10px;" src="img/dev.jpeg" alt="">
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -248,78 +258,64 @@
 
 
     <!-- Projects Start -->
-    <div class="container-xxl py-6 pt-5" id="project">
-        <div class="container">
-            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">Mes projets</h1>
+    <section class="projet" id="project" >
+        <h1 style=" margin-left: 100px;" class="display-5 mb-0">Mes projets</h1>
+        <section class="projects">
+            <div class="projContainer">
+                <div class="imageCard">
+                    <img src="img/redama1.png">
+                    <div class="overlay"></div>
+                    <div class="projDetails">
+                        <h2 class="projName">site Hôtel Redama</h2>
+                        <a href="https://leilamouk.github.io/integration-hotel/" class="projLink">Parcourir!</a>
+                    </div>
                 </div>
-                <div class="col-lg-6 text-lg-end">
-                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
-                        <li class="mx-3 active" data-filter="*">Tous les projets</li>
-                        <li class="mx-3" data-filter=".first">UI/UX Design</li>
-                        <li class="mx-3" data-filter=".second">Création des sites Web</li>
-                    </ul>
+                <div class="imageCard">
+                    <img src="img/projet2.png">
+                    <div class="overlay"></div>
+                    <div class="projDetails">
+                        <h2 class="projName">Site G2M</h2>
+                        <a href="https://vercel.com/leilamouk/gervais-ambourouet
+                        " class="projLink">Parcourir!</a>
+                    </div>
                 </div>
+                <div class="imageCard">
+                    <img src="img/form.png">
+                    <div class="overlay"></div>
+                    <div class="projDetails">
+                        <h2 class="projName">Application d'inscription scolaire</h2>
+                        <a href="https://formulaire1-chi.vercel.app/" class="projLink">Parcourir!</a>
+                    </div>
+                </div>
+                <div class="imageCard">
+                    <img src="img/portfolio.png">
+                    <div class="overlay"></div>
+                    <div class="projDetails">
+                        <h2 class="projName">PortFolio</h2>
+                        <a href="https://vercel.com/leilamouk/gervais-ambourouet" class="projLink">Parcourir!</a>
+                    </div>
+                </div>
+                <div class="imageCard">
+                    <img src="img/api.png">
+                    <div class="overlay"></div>
+                    <div class="projDetails">
+                        <h2 class="projName">Création des API REST</h2>
+                        <a href="https://github.com/Leilamouk/API_REST.git" class="projLink">Parcourir!</a>
+                    </div>
+                </div>
+                <div class="imageCard hidden">
+                    <img src="img/projet.png">
+                    <div class="overlay"></div>
+                    <div class="projDetails">
+                        <h2 class="projName">Maquette d'une Landing page</h2>
+                        <a href="https://www.figma.com/file/RPHwHOtbHU8ub7qQkANlEe/Untitled?node-id=1%3A2" class="projLink">Parcourir!</a>
+                    </div>
+                </div>
+                
+                
             </div>
-            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
-                <div class="col-lg-4 col-md-6 portfolio-item first">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/projet.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projet.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://leilamouk.github.io/g2mcorrection/"><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/projet2.png" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://leilamouk.github.io/g2mcorrection/"><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-3.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-4.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-5.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/projet.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a  class="btn btn-lg-square btn-outline-secondary border-2 mx-1"><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-6.jpg" alt="">
-                        <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </section>
+     </section>
     <!-- Projects End -->
 
 
@@ -330,40 +326,35 @@
         <div class="container py-5">
             <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">Let's Work Together</h1>
-                </div>
-                <div class="col-lg-6 text-lg-end">
-                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
+                    <h1 class="display-5 mb-0">Contactez-moi</h1>
                 </div>
             </div>
             <div class="row g-5">
                 <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="mb-2">My office:</p>
+                    <p class="mb-2">Mon Adresse:</p>
                     <h3 class="fw-bold">Bac Avition, Port-Gentil, Gabon</h3>
                     <hr class="w-100">
                     <p class="mb-2">Appelez moi:</p>
                     <h3 class="fw-bold">+241 074 340 157</h3>
                     <hr class="w-100">
                     <p class="mb-2">Mon adresse mail:</p>
-                    <h3 class="fw-bold">leilamoukagni@gmail.com</h3>
+                    <h3 class="mail">leilamoukagni@gmail.com</h3>
                     <hr class="w-100">
-                    <p class="mb-2">Follow me:</p>
+                    <p class="mb-2">Suivez-moi:</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.facebook.com/" target="_blank" title="Facebook de Léila"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BsOfgBYxXR9KLxYx3WfAJwQ%3D%3D"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                   
                     <form class="form" action="https://formspree.io/f/xjvzvqwp" method="post">  
                         <input type="text" id="Fname" name="Fname" placeholder="Votre Nom" class="box">
                         <input type="email" id="email" placeholder="Votre Email" class="box">
                         <input type="text" id="Sname" name="Sname" placeholder="Sujet" class="box">
                         <textarea name="" class="box" placeholder="Votre message" id="" cols="30" rows="10"></textarea>
-                        <input type="submit" value="Envoyer" class="btn">
+                        <input type="submit" value="Envoyer" class="butn">
                     </form>
                     
                 </div>
@@ -379,12 +370,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom text-secondary" href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a class="border-bottom text-secondary" href="#">Portfolio-Léïla</a>, Tous droits réservés.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom text-secondary" href="https://htmlcodex.com">HTML Codex</a>
-                        <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+                        Design par  <a class="border-bottom text-secondary" href="">Léïla MOUKAGNI</a>
                     </div>
                 </div>
             </div>
